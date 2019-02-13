@@ -1,4 +1,4 @@
-// CpuCacheTest1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// This example demonstrates how cache miss is caused by showing one loop jumping 4 byte per iteration and the other jumping 64 bytes per iteration
 //
 
 #include "pch.h"

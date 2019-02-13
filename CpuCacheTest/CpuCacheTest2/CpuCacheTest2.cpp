@@ -1,3 +1,5 @@
+// This example demonstrates how cache miss is caused by showing one loop jumping 4 byte per iteration and the other jumping 64 bytes per iteration
+//
 
 #include "pch.h"
 #include <iostream>
@@ -6,7 +8,7 @@
 #include <memory>
 #include <chrono>
 
-const long INSTANCE_COUNT = 1e7; // 10 million
+const long long INSTANCE_COUNT = 1e7; // 10 million
 
 
 // Array of structures

@@ -1,4 +1,4 @@
-// MemoryAlignmentTest1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// This example demonstrates how to determine alignement of memory address and alignment requirement of a variable
 //
 
 #include "pch.h"

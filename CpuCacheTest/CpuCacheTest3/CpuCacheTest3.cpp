@@ -1,4 +1,6 @@
-﻿
+﻿// This example demonstrates how compiler can auto-vectorize a loop with struct of arrays, making it faster than looping an array of structs
+//
+
 #include "pch.h"
 #include <iostream>
 
@@ -6,7 +8,7 @@
 #include <memory>
 #include <chrono>
 
-const double INSTANCE_COUNT = 1e7; // 10 million
+const long long INSTANCE_COUNT = 1e7; // 10 million
 
 
 struct Instance {

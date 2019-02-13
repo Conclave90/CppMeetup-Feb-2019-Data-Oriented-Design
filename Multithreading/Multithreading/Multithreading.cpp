@@ -1,3 +1,4 @@
+// This example shows a situation where false sharing occurs by having multiple threads sharing the same cache line
 #include "pch.h"
 #include <thread>
 #include <iostream>
@@ -14,7 +15,8 @@ public:
 		for (; _counter < M; _counter += _counter % 3);
 	}
 
-	__declspec(align(64)) long int _counter{ 1 };
+	long int _counter{ 1 };
+	//char padding[64];  adding this will ensure each thread's cache line does not overlap with each other
 };
 
 void runMultithread() {
