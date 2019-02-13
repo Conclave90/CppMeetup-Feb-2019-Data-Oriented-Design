@@ -2,7 +2,7 @@
 
 This repository contains slides and sample codes used for the Melbourne C++ meetup presentation in February which was on the topic - Data-Oriented Design.
 
-The presentation focuses on three sub-topics:
+The presentation focuses on the following sub-topics:
 * CPU Cache utilisation
 * Memory alignment
 * 'False sharing' in Multithreading
