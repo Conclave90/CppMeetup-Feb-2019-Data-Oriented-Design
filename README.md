@@ -7,7 +7,7 @@ The presentation focuses on the following sub-topics:
 * Memory alignment
 * 'False sharing' in Multithreading
 
-Each sub-topic was demonstrated using codes which were built and tested in MSVC 2017 using x64 Release configuration.
+Each sub-topic was demonstrated using codes which were built and tested with MSVC 2017 using x64 Release configuration.
 
 
 
