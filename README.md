@@ -1,6 +1,6 @@
 # CppMeetup-Feb-2019-Data-Oriented-Design
 
-This repository contains slides and sample codes used for the Melbourne C++ meetup presentation in February which was on the topic - Data-Oriented Design.
+This repository contains slides and sample codes used for the Melbourne C++ meetup presentation on Data-Oriented Design.
 
 The presentation focuses on the following sub-topics:
 * CPU Cache utilisation
