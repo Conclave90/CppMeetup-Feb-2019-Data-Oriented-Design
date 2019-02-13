@@ -1,8 +1,13 @@
 # CppMeetup-Feb-2019-Data-Oriented-Design
 
-This repository contains slides and sample codes used for the Melbourne C++ meetup presentation in February which was about Data-Oriented Design.
+This repository contains slides and sample codes used for the Melbourne C++ meetup presentation in February which was on the topic - Data-Oriented Design.
 
-The codes were built and tested in MSVC 2017.
+The presentation focuses on three sub-topics:
+* CPU Cache utilisation
+* Memory alignment
+* 'False sharing' in Multithreading
+
+Each sub-topic was demonstrated using codes which were built and tested in MSVC 2017.
 
 
 
